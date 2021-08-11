@@ -1,0 +1,4 @@
+1º Extrair pacote Java - sudo tar zxvf jdk-11.0.12_linux-x64_bin.tar.gz
+2º Criar diretório de instalação: sudo mkdir -p /usr/lib/jvm/jdk-11/
+3º Mover pasta descompactada para diretorio criado: sudo mkdir /usr/lib/jvm/jdk-11/
+4º instalar: sudo update-alternatives --install "/usr/bin/java" "java" "/usr/lib/jvm/jdk-11//bin/java" 1010
